@@ -52,8 +52,8 @@ document.getElementById("bike-color").addEventListener("change", () => {
 	let checkbox = document.getElementById("bike-color");
 	let container = document.getElementById("bikes");
 	if (checkbox.checked) {
-	container.style.background = "url(../img/bike-top-black.png) no-repeat";
-	} else container.style.background = "url(../img/bike-top.png) no-repeat";
+	container.style.background = "url(img/bike-top-black.png) no-repeat";
+	} else container.style.background = "url(img/bike-top.png) no-repeat";
 	
 	})
 
@@ -89,3 +89,5 @@ $(document).ready(function(){
 		$('body,html').animate({scrollTop: top}, 1500);
 	});
 });
+// swiper slider 1
+// Initialize Swiper
